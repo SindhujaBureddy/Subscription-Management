@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="1071563" started-at="2020-12-29T16:47:24Z" finished-at="2020-12-29T17:05:16Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="1071563" started-at="2020-12-29T16:47:24Z" finished-at="2020-12-29T17:05:16Z">
+      <class name="com.qa.testcases.SubscriptionManagement">
+        <test-method status="PASS" signature="setExtent()[pri:0, instance:com.qa.testcases.SubscriptionManagement@59494225]" name="setExtent" is-config="true" duration-ms="267" started-at="2020-12-29T16:47:24Z" finished-at="2020-12-29T16:47:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtent -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.testcases.SubscriptionManagement@59494225]" name="setUp" is-config="true" duration-ms="32182" started-at="2020-12-29T16:47:25Z" finished-at="2020-12-29T16:47:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="chargeCreation(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.qa.testcases.SubscriptionManagement@59494225]" name="chargeCreation" duration-ms="249675" started-at="2020-12-29T16:47:57Z" data-provider="charge_creation" finished-at="2020-12-29T16:52:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abcdsubscription_testt_customer3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Subscription001]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[quaterly subscription with no free trail days]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Quarterly]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[New]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chargeCreation -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.testcases.SubscriptionManagement@59494225]" name="tearDown" is-config="true" duration-ms="776" started-at="2020-12-29T16:52:07Z" finished-at="2020-12-29T16:52:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=chargeCreation status=SUCCESS method=SubscriptionManagement.chargeCreation(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.qa.testcases.SubscriptionManagement@59494225] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.testcases.SubscriptionManagement@59494225]" name="setUp" is-config="true" duration-ms="28813" started-at="2020-12-29T16:52:08Z" finished-at="2020-12-29T16:52:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="chargeCreation(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.qa.testcases.SubscriptionManagement@59494225]" name="chargeCreation" duration-ms="253527" started-at="2020-12-29T16:52:37Z" data-provider="charge_creation" finished-at="2020-12-29T16:56:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abcdsubscription_testt_customer4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Subscription001]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[anuall subscription with no free trail days]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Annually]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[New]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chargeCreation -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.testcases.SubscriptionManagement@59494225]" name="tearDown" is-config="true" duration-ms="739" started-at="2020-12-29T16:56:50Z" finished-at="2020-12-29T16:56:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=chargeCreation status=SUCCESS method=SubscriptionManagement.chargeCreation(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.qa.testcases.SubscriptionManagement@59494225] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.testcases.SubscriptionManagement@59494225]" name="setUp" is-config="true" duration-ms="26123" started-at="2020-12-29T16:56:51Z" finished-at="2020-12-29T16:57:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="chargeCreation(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.qa.testcases.SubscriptionManagement@59494225]" name="chargeCreation" duration-ms="265268" started-at="2020-12-29T16:57:17Z" data-provider="charge_creation" finished-at="2020-12-29T17:01:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abcdsubscription_testt_customer3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Subscription001]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[subscription purchse with free trial for an existing customer]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Monthly]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[15]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Existing]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chargeCreation -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.testcases.SubscriptionManagement@59494225]" name="tearDown" is-config="true" duration-ms="742" started-at="2020-12-29T17:01:42Z" finished-at="2020-12-29T17:01:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=chargeCreation status=SUCCESS method=SubscriptionManagement.chargeCreation(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.qa.testcases.SubscriptionManagement@59494225] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.testcases.SubscriptionManagement@59494225]" name="setUp" is-config="true" duration-ms="26561" started-at="2020-12-29T17:01:43Z" finished-at="2020-12-29T17:02:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="chargeCreation(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.qa.testcases.SubscriptionManagement@59494225]" name="chargeCreation" duration-ms="184567" started-at="2020-12-29T17:02:10Z" data-provider="charge_creation" finished-at="2020-12-29T17:05:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abcdsubscription_testt_customer4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Subscription001]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[subscription purchse with no free trial for an existing customer]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Monthly]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Existing]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chargeCreation -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.testcases.SubscriptionManagement@59494225]" name="tearDown" is-config="true" duration-ms="951" started-at="2020-12-29T17:05:14Z" finished-at="2020-12-29T17:05:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=chargeCreation status=SUCCESS method=SubscriptionManagement.chargeCreation(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.qa.testcases.SubscriptionManagement@59494225] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.qa.testcases.SubscriptionManagement@59494225]" name="endReport" is-config="true" duration-ms="615" started-at="2020-12-29T17:05:15Z" finished-at="2020-12-29T17:05:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.qa.testcases.SubscriptionManagement -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
